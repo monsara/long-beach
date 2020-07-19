@@ -5,12 +5,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Placeholder title</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+
     <!-- Сюда будет всталена ссылка на файл стилей -->
     <!-- inject:css -->
     <!-- endinject -->
   </head>
 
-  <body>
+  <body class="page">
+    <div class="page-wrapper">
+      <!-- HEADER -->
+      //= html/header.html
+
+      <main class="main-content container">
+        <h1 class="visually-hidden">Long Beach Surfing Institute Website</h1>
+
+        <!-- INTRO SECTION -->
+        //= html/intro.html
+
+        <!-- INSTRUCTORS SECTION -->
+        //= html/instructors.html
+
+        <!-- BLOGS SECTION -->
+        //= html/blogs.html
+
+        <!-- ACTIONS SECTION -->
+        //= html/action.html
+      </main>
+
+      <!-- FOOTER -->
+      //= html/footer.html
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-2.2.4.min.js"
+      integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+
     <!-- Сюда будет всталена ссылка на файл скриптов -->
     <!-- inject:js -->
     <!-- endinject -->

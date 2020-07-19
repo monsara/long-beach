@@ -1,0 +1,71 @@
+.footer {
+  padding-top: 4.5rem;
+  padding-bottom: 4rem;
+
+  font-size: 1.4rem;
+  line-height: 2em;
+
+  border-top-width: 0.1em;
+  border-top-style: solid;
+  border-top-color: $gray-light-color-300;
+
+  &__container {
+    margin: auto;
+
+    @media screen and (min-width: 992px) {
+      max-width: 96rem;
+    }
+
+    @media screen and (min-width: 1800px) {
+      max-width: 116.7rem;
+    }
+  }
+
+  &__grid {
+    display: flex;
+
+    flex-flow: column wrap;
+    align-items: center;
+
+    @media screen and (min-width: 992px) {
+      justify-content: space-between;
+      flex-flow: row wrap;
+    }
+  }
+
+  &__col {
+    text-align: center;
+
+    @media screen and (min-width: 992px) {
+      text-align: initial;
+    }
+  }
+
+  &__slogan {
+    margin: 0;
+    margin-bottom: 0.9rem;
+
+    font-family: 'Playfair Display', serif;
+    font-size: 2.4rem;
+    line-height: 1.2em;
+  }
+
+  &__copyright {
+    margin: 0;
+    font-size: 1.4rem;
+    line-height: 2em;
+
+    color: $gray-light-color-300;
+  }
+
+  &__designed {
+    margin: 0;
+    padding-top: 2.9rem;
+    padding-right: 2.1rem;
+
+    color: $gray-light-color-300;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  }
+}

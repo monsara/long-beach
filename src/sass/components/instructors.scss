@@ -1,0 +1,47 @@
+.instructors {
+  text-align: center;
+
+  &__title {
+    margin-bottom: 4rem;
+
+    @media screen and (min-width: 768px) {
+      margin-bottom: 9.2rem;
+    }
+  }
+
+  &__list {
+    margin: auto;
+
+    @media screen and (min-width: 992px) {
+      margin-bottom: 0;
+    }
+
+    @media screen and (min-width: 1200px) {
+      max-width: 100rem;
+    }
+
+    @media screen and (min-width: 1800px) {
+      max-width: 113.8rem;
+      margin-bottom: 19.6rem;
+    }
+  }
+
+  &__item {
+    width: 29.1rem;
+  }
+
+  &__image {
+    margin: auto;
+    margin-bottom: 3rem;
+  }
+
+  &__name {
+    margin-bottom: 1rem;
+  }
+
+  &__students-count {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #2ab738;
+  }
+}

@@ -2,5 +2,20 @@
  * Все паршалы импортировать в этот файл
  */
 
-@import 'normalize.scss';
-@import 'base.scss';
+@import './base/helpers/variables.scss';
+@import './base/helpers/extras.scss';
+@import './base/normalize.scss';
+@import './base/base.scss';
+@import './base/general.scss';
+
+@import './slick/slick.scss';
+@import './slick/slick-theme.scss';
+
+@import './components/header.scss';
+@import './components/nav.scss';
+@import './components/intro.scss';
+@import './components/instructors.scss';
+@import './components/blogs.scss';
+@import './components/blog-post.scss';
+@import './components/action.scss';
+@import './components/footer.scss';

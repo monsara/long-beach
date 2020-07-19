@@ -1,0 +1,37 @@
+.nav {
+  font-size: 1.5rem;
+  line-height: 1.2em;
+
+  &__list {
+    display: flex;
+
+    margin: 0;
+    padding: 0;
+
+    justify-content: space-between;
+
+    list-style-type: none;
+
+    @media screen and (min-width: 768px) {
+      min-width: 42rem;
+    }
+  }
+
+  &__link {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: $gray-light-color;
+
+    transition: all 0.3s ease;
+
+    &:hover,
+    &:focus {
+      color: $dark-color;
+    }
+
+    &_active {
+      font-weight: bold;
+      color: $dark-color;
+    }
+  }
+}
