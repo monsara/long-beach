@@ -21,7 +21,7 @@ of Android/iOS, etc.
 - Mobile first
 - Pixel perfect
 - Fexible images
-- BEM methodology for names
+- BEM methodology for class names
 - SASS/SCSS (variables, SCSS modules)
 - HTML Chunks
 
