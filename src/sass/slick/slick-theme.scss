@@ -41,7 +41,7 @@ $slick-opacity-not-active: 0.25 !default;
 
 .slick-list {
   .slick-loading & {
-    background: #fff slick-image-url('ajax-loader.gif') center center no-repeat;
+    // background: #fff slick-image-url('ajax-loader.gif') center center no-repeat;
   }
 }
 
@@ -111,7 +111,7 @@ $slick-opacity-not-active: 0.25 !default;
 }
 
 .slick-prev {
-  background-image: url(../../images/arrow.png);
+  background-image: url(../images/arrow.png);
   background-size: cover;
   background-position: center;
 
@@ -142,7 +142,7 @@ $slick-opacity-not-active: 0.25 !default;
 }
 
 .slick-next {
-  background-image: url(../../images/arrow.png);
+  background-image: url(../images/arrow.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
